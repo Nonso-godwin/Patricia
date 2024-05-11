@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .navbar {
+             background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+         }
+        .btn-primary {
+             background-color: rgb(50, 175, 50);
+             border-color: white;
+         }
+         .container-fluid{
+            background-color: transparent;
+            color: white;
+         }
+         .bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.section2{
+    padding: 5%;
+}
+.mb-3{
+    /* box-shadow: 2px 2px 2px ; */
+    /* padding: 10px; */
+    border: none;
+}
+.footer {
+            background-color: #000;
+            text-align: center;
+            margin: auto;
+        }
+
+
+
+
+         
+     </style>
+     
+</head>
+<body>
+            
+            <nav class="navbar navbar-expand-lg navbar-ligh  bg-transparent bg-light fixed-top" style="position: absolute;top: 0; color: white;">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#" style="font-family: Poor Richard;color: white;"><h1>Tricia Bliss Kitchen</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item"><a class="nav-link" href="#" style=" color: white;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style=" color: white;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style=" color: white;">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style=" color: white;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('image/WhatsApp Image 2024-05-07 at 6.09.56 PM.jpeg'); height: 100vh; background-size: cover;background-position: center;">
+        <div class="container text-center">
+            <h1 class="text-white">Discover a new level of tatse...</h1>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+   
+    <br><br>
+    <div class="section2">
+        <h3> <b> Order. Enjoy. Repeat:</b> Savor the Flavorful  <br>Delights of Tricia Bliss Kitchen</h3>
+        <br><br><br> <br><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card mb-3" style="width: 70%;">
+                    <img src="image/1.svg" class="card-img-top img-center" alt="..." style="width: 20%;">
+                    <br>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </h3>
+                </div>
+            </div>
+       
+       
+            <div class="col-sm-4">
+                <div class="card mb-3" style="width: 70%;">
+                    <img src="image/2.svg" class="card-img-top" alt="..." style="width: 20%;">
+                    <br>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h3>
+                </div>
+            </div>
+       
+        
+            <div class="col-sm-4">
+                <div class="card mb-3" style="width: 70%;">
+                    <img src="image/3.svg" class="card-img-top" alt="..." style="width: 20%;">
+                    <br>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h3>
+                
+            </div>
+        </div>
+    </div>
+  
+    </div>
+
+    <div class="section3">
+      <video src="image/lv_0_20240510163959.mp4" width="100%" autoplay mute loop></video>
+    </div>
+    <br>
+    <div class="section4">
+        <h3 style="text-align: center;padding: 10%;">
+           <b> Illud decore voluptaria has at.</b> Hinc invenire atomorum no vel.
+             Ut vis nullam blandit neglegentur
+            , omittam perpetua voluptatum qui eu.
+             Iusto laoreet suscipit vis ad, ad ferri tempor duo.
+             <br><br>
+            <i style="color: green; font-size: small;"> MORE ABOUT US</i>
+        </h3>
+    </div>
+    <br>
+     
+      <hr>
+         <div class="row">
+            <div class="col-md-5">
+                <img src="image/Screenshot_20240507-163028.jpg" width="100%">
+            </div>
+            <div class="col-sm-6">
+<h3>This is one of our local delicasies, Fufu and Nsala soup..</h3>
+            </div>
+         </div><hr>
+         <br><br>
+         <div class="row">
+            <div class="col-md-5">
+                <h3>This is one of our Best and tastiest dishes, spaghetti..</h3>
+
+            </div>
+            <div class="col-sm-6">
+                <img src="image/Screenshot_20240507-163031.jpg" width="100%">
+            </div>
+         </div><hr>
+         <br>
+         <br>
+         <div class="row">
+            <div class="col-md-5">
+               <img src="image/pixelcut-export (3).jpeg" width="100%" alt="">
+            </div>
+            <div class="col-sm-6">
+                <h3>This is one of our pastries, milky egg roll..</h3>
+            </div>
+         </div><br><br>
+         <div class="footer">
+            <br><br>
+            <div class="row" >
+                <div class="col-md-3">
+<h1 style="color: white;font-family: Poor Richard;">Tricia Bliss Kitchen</h1>
+<h6> copyright 2024, All rights reserved</h6>
+                </div>
+                <div class="col-md-3">
+                    <h5>Features</h5><br>
+                    <h5>Premium</h5><br>
+                    <h5>Pricing</h5><br>
+                    <h5>Blog</h5>
+                </div> &nbsp;
+                <div class="col-md-3">
+                    <h5>About</h5><br>
+                    <h5>Contact</h5><br>
+                     <h5>License</h5>
+                </div>
+                &nbsp;
+                <div class="col-md-3">
+                    <div class="col-3" style="width: 70%;display: flex;justify-content: space-between;">
+       &nbsp;
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-whatsapp"></a>
+                      
+                    </div>
+                </div>
+            </div>
+            <br><br> <br>
+         </div>
+   
+        
+         
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
+    
+</html>
